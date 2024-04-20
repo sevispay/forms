@@ -1,0 +1,80 @@
+body{
+  background-color: #EEEEEE;
+}
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    margin: 38px 0px;
+}
+.hr-sect:before,
+.hr-sect:after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 8px;
+}
+
+/* Paypal Section*/
+#paypal-signup-card{
+  width: 55%;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+#login-btn{
+  border-radius: 30px;
+  background-color: #0C359E;
+  padding: 12px 0px;
+}
+#login-btn b{
+  color: white;
+}
+#upload-div{
+  background-color: #EEEEEE;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+#myfile{
+  margin-top: 5px;
+}
+.header{
+  text-align: center;
+  margin-top: 30px;
+}
+.description{
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+@media screen and (max-width: 799px){
+
+  #paypal-signup-card{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+  }
+}
+@media screen and (min-width: 800px){
+  .description{
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header{
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+}
