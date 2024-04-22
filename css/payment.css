@@ -48,10 +48,15 @@ body{
   text-align: center;
   margin-top: 30px;
 }
-.description{
-  width: 40%;
+#des-main-head{
+  text-align: center;
+}
+#descrp-header{
+  padding: 20px 0px;
+}
+.description p, h4{
+  width: 70%;
   margin: auto;
-  text-align: left;
 }
 
 @media screen and (max-width: 799px){
