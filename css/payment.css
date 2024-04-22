@@ -21,7 +21,7 @@ body{
 
 /* Paypal Section*/
 #paypal-signup-card{
-  width: 55%;
+  width: 40%;
   margin: auto;
   margin-top: 20px;
   border: 1px solid grey;
@@ -49,7 +49,7 @@ body{
   margin-top: 30px;
 }
 .description{
-  width: 90%;
+  width: 60%;
   margin: auto;
   text-align: left;
 }
